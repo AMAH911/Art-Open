@@ -18,9 +18,24 @@ const useStyles = makeStyles(theme =>({
         textAlign:"center",
         marginTop:theme.spacing(5),
         paddingBottom:heme.spacing(2)
-        
 
+    },
+        
+    error:{
+        verticalAlign: "middle"
+    },
+
+    title: {
+        marginTop: theme.spacing(2),
+        color:theme.palette.openTitle
+    },
+    textField: {
+        marginLeft:theme.spacing(1),
+        marginRight:theme.spacing(1),
+        width: 300
 
     }
+
+    
 })
 )
