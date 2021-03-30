@@ -80,7 +80,7 @@ const useStyles = makeStyles(theme =>({
          }
 
          const {redirectToReferrer} = values
-         if(redirectToRefferer){
+         if(redirectToReferrer){
              return (<Redirect to={from}/>)
          }
      }
