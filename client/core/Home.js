@@ -26,7 +26,7 @@ export default function Home(){
     
 
     return(
-        <div>
+        <div claasName={classes.root}>
 
 
         </div>
