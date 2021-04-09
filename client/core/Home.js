@@ -27,6 +27,12 @@ export default function Home(){
 
     return(
         <div claasName={classes.root}>
+        {
+            galleries.map((gallery, i) =>{
+                return <GalleryDetail key={i} gallery={gallery} 
+            })
+        }
+
 
 
         </div>
